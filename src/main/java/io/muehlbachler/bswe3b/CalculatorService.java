@@ -2,12 +2,12 @@ package io.muehlbachler.bswe3b;
 
 import org.springframework.stereotype.Service;
 
-// FIXME: add javadoc
+// Service for performing mathematical calculations
 @Service
 public class CalculatorService {
-    // FIXME: add javadoc
+    // the Method "divide" should return a/b
     public int divide(final int a, final int b) {
-        // FIXME: implement
+        // it should return 0 if b < 0
         return -1;
     }
 }
